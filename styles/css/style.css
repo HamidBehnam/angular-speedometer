@@ -1,0 +1,43 @@
+.speedo-holder {
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.dial-img {
+    -webkit-transition: ease-in-out 800ms;
+    -moz-transition: ease-in-out 800ms;
+    -ms-transition: ease-in-out 800ms;
+    -o-transition: ease-in-out 800ms;
+    transition: ease-in-out 800ms;
+
+    transform-origin: 48% 84%
+}
+
+.meter-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    -webkit-transition: background-color ease-in-out 800ms 0ms;
+    -moz-transition: background-color ease-in-out 800ms 0ms;
+    -ms-transition: background-color ease-in-out 800ms 0ms;
+    -o-transition: background-color ease-in-out 800ms 0ms;
+    transition: background-color ease-in-out 800ms 0ms;
+}
+
+.dial-img-holder {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+}
+
+.title-holder {
+    text-align: center;
+}
